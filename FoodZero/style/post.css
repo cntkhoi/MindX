@@ -1,0 +1,103 @@
+
+.main-wrapper{}
+.hero_wrapper{
+    background-image: url(.././assets/images/post-banner.png);
+}
+
+/* 
+    1, Position:
+        - position
+        - top, right, bottom, left
+
+    2. Box Model:
+        - display
+        - margin, paddin
+        - width, height
+    
+    3. Color:
+        - color, font-weight, font-size
+        - background-color
+    
+    4. Other:
+        - border, box-shadow, z-index
+ */
+
+header{
+
+
+    /* Position */
+    position: relative;
+    top: 0;
+    left: 0;
+
+    /* Box model */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 75px;
+    
+    /* Others */
+    color: white;
+    
+}
+header .header__logo{}
+header .header__logo img{
+    width: 180px;
+    height: auto;
+}
+header .header__tool{
+
+    display: flex;
+    align-items: center;
+}
+
+.header .header__tool .phone-number{
+    color: #fff;
+    margin: 16px;
+}
+
+.header .header__tool .reservation-button{
+    padding: 10px 16px;
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+}
+
+.hero-banner__content{}
+
+.hero-banner__content button{
+    border: 2px solid #fff;
+    color: #fff;
+
+    padding: 10px 25px;
+
+    font-family: 'rufina';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.hero-banner__content h1{
+
+    padding-top: 60px;
+
+    color:#fff;
+    font-family: 'Rufina';
+    font-weight: 700;
+    font-size: 36px;
+
+    
+}
+
+.hero-banner__content .author img{
+    width: 80px;
+}
+
+.hero-banner__content .author{
+
+
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: white;
+}
+

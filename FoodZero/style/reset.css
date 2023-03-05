@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* Box sizing dÃ¹ng Ä‘á»ƒ bá» thuá»™c tÃ­nh padding */
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
