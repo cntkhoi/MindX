@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px 75px;
+    width: 100%;
     
     /* Others */
     color: white;
@@ -61,13 +62,28 @@ header .header__tool{
     color: rgb(255, 255, 255);
 }
 
-.hero-banner__content{}
+.hero-banner{
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 900px;
+}
+.hero-banner__content{
+
+
+    width: 100%;
+    height: 380px;
+}
 
 .hero-banner__content button{
-    border: 2px solid #fff;
+    border: 3px solid #ffffff;
     color: #fff;
 
     padding: 10px 25px;
+
 
     font-family: 'rufina';
     font-size: 26px;
@@ -76,7 +92,7 @@ header .header__tool{
 
 .hero-banner__content h1{
 
-    padding-top: 60px;
+    padding-top: 30px;
 
     color:#fff;
     font-family: 'Rufina';
@@ -99,5 +115,23 @@ header .header__tool{
     justify-content: space-around;
 
     color: white;
+    
 }
 
+.blogcontainer{
+    display: flex;
+}
+
+.imagesgrip{
+    display: flex;
+}
+
+.imagesgrip img{
+    width: 500px;
+    height: auto;
+}
+
+.imagesgrip .rightimages img{
+    width: 300px;
+    height: auto;
+}
