@@ -1,0 +1,38 @@
+ul.menu{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.menucontainer{
+    background-color: #17a2b8;
+    height: 30px;
+    width: 100%;
+    
+}
+
+ul.menu li{
+    display: inline;
+}
+
+ul.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 10px;
+    transition: 0.4s;
+
+}
+
+ul.menu li a:hover{
+    background-color: #127584;
+   
+   
+}

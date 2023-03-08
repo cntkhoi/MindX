@@ -1,0 +1,22 @@
+.container{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.container .spin{
+    width: 450px;
+    height: 450px;
+
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    transition: 0.4s;
+}
+
+.container .xoaylogo{
+    width: 250px;
+    left: 75px;
+    top: 75px
+
+}

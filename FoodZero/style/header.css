@@ -1,0 +1,40 @@
+.header__nav {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .header__nav .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__nav .nav li {
+    display: inline-block;
+    margin: 0px 16px;
+    transition: 0.4s;
+  }
+  
+  .header__nav .nav li.highlight {
+    background-color: #007bff;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+  
+  .header__nav .nav li:hover {
+    background-color: #007bff;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+  
+  .header__nav .nav .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  
+  .header__nav .nav li:hover .sub-menu {
+    display: block;
+  }
+  

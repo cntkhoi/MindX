@@ -1,0 +1,16 @@
+.khung{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-image: url(img/tikiss.webp);
+    
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

@@ -1,0 +1,81 @@
+.tren ul{
+    display: flex;
+}
+
+.tren ul li{
+    list-style: none;
+}
+
+.tren ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f3f3f;
+    background-color: #d5d5d5;
+    padding: 7px 17px;
+    display: block;
+    margin: 0 1px;
+}
+
+.tren ul li a:hover{
+    background-color: rgb(61, 149, 231);
+    color: white;
+
+}
+.tren ul li a.xanh{
+    background-color: rgb(61, 149, 231);
+    color: white;
+}
+
+.duoi{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.duoi a.khoinho{
+    width: 200px;
+    display: flex;
+    height: 35px;
+    color: #414141;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    
+}
+.duoi a.khoinho img.trai{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.duoi a.khoinho .phai{
+    text-transform: uppercase;
+    width: 170px;
+}
+
+._13cot{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+._13cot ._1cot{
+    width: 76px;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+._13cot ._1cot img{
+    width: 50%;
+    border-radius: 30%;
+}
+
+._13cot ._1cot img:hover{
+    border: 10px blue;
+}
+
+._13cot ._1cot a.ten{
+    text-decoration: none;
+    color: black;
+}

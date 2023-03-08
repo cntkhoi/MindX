@@ -1,0 +1,18 @@
+div.to{
+    display: flex;
+    width: 830px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+div.trai{
+    width: 300px;
+}
+div.phai{
+    width: 380px;
+}
+
+img{
+    width: 280px;
+}

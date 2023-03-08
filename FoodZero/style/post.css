@@ -1,5 +1,8 @@
 
-.main-wrapper{}
+.main-wrapper{
+    width: 1920px;
+
+}
 .hero_wrapper{
     background-image: url(.././assets/images/post-banner.png);
 }
@@ -119,19 +122,63 @@ header .header__tool{
 }
 
 .blogcontainer{
+    width: 1584px;
     display: flex;
+    margin: auto;
+    padding-top: 129px;
+    justify-content: space-between;
+    
+}
+
+.maincontent{
+    width: 1218px;
 }
 
 .imagesgrip{
     display: flex;
 }
 
-.imagesgrip img{
-    width: 500px;
-    height: auto;
+.imagesgrip{
+    width: 792px;
+    padding-top: 86px;
 }
 
-.imagesgrip .rightimages img{
-    width: 300px;
-    height: auto;
+.imagesgrip .left img{
+    width: 792px;
+    height: 848px;
+}
+
+.imagesgrip .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    height: 848px;
+    align-items: center;
+}
+.imagesgrip .right img{
+
+    width: 366px;
+    height: 394px;
+    
+}
+
+.blogcontainer .blog-widget{
+    width: 366px;
+    padding-left: 60px;
+
+
+}
+
+.blogcontainer .blog-widget h3{
+    font-size: 32px;
+    font-weight: 700px;
+
+}
+
+.blogcontainer .blog-widget h3{}
+
+.blog-widget hr.dashed-divider{
+    width: 355px;
+    
 }

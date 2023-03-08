@@ -1,10 +1,10 @@
-.position-absolute{
+.p-absolute{
     position: absolute;
 }
-.position-relative{
+.p-relative{
     position: relative;
 }
 
-.display-flex{
+.d-flex{
     display: flex;
 }
